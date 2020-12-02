@@ -1,1 +1,7 @@
+User-agent: *
+Disallow: /
+
 User-agent: s0eDmmj1hoS2tnNTh8iC
+Allow: /
+
+
