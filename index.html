@@ -3,44 +3,15 @@
 	<title>My Webpage</title>
 	<link rel="stylesheet" href="styles.css" type="text/css">
 	<script>
-		function getCookie(cname) {
-		var name = cname + "=";
-		var ca = document.cookie.split(';');
-		for(var i = 0; i < ca.length; i++) {
-			var c = ca[i];
-			while (c.charAt(0) == ' ') {
-				c = c.substring(1);
-				}
-				if (c.indexOf(name) == 0) {
-					return c.substring(name.length, c.length);
-				}
-			}
-		return "";
+		var cookie = document.cookie;
+		if (cookie == "TykBmlhXHAbrFrGtTfXu") {
+			alert("Welcome back!")
 		}
-
-		function checkCookie() {
-			var username = getCookie("username");
-			if (username == "chr1stmas") {
-				alert("Well done, the correct cookie was " + username);
-			}
-			else {
-				window.close()
-			}
-		  }
-		
-		checkCookie();
+		else {
+			cookie = "TykBmlhXHAbrFrGtTfXu"
+		}
 	  </script>
 </head>
 <body>
-	<h1>Web Programming is Bad</h1>
-	<p>and here is why...</p>
-	<ul>
-		<li>HTML is a markup language - not programming</li>
-		<li>It's mainly frontend-based</li>
-		<li>CSS is for styling so it is boring by default</li>
-	</ul>
-	<img src="kitten.jpg">
-	<p>When Alex codes:</p>
-	<!-- <img src="kitten_dead.jpg"> !-->
-	<a href="kitten_dead.jpg" target="_blank">click me!</a>
+	<p>words</p>
 </body>
