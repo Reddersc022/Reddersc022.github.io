@@ -6,10 +6,27 @@
 <body>
 	<h1>Yay</h1>
 	<p>Web Programming</p>
-	<script>function checkCookie() {
-		var username = getCookie("username");
-		if (username == "hello") {
-		 alert("Well done, the correct cookie was " + username);
+	<script>
+		function getCookie(cname) {
+		var name = cname + "=";
+		var ca = document.cookie.split(';');
+		for(var i = 0; i < ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == ' ') {
+				c = c.substring(1);
+				}
+				if (c.indexOf(name) == 0) {
+					return c.substring(name.length, c.length);
+				}
+			}
+		return "";
 		}
-	  }</script>
+
+		function checkCookie() {
+			var username = getCookie("username");
+			if (username == "hello") {
+				alert("Well done, the correct cookie was " + username);
+			}
+	  	}
+	  </script>
 </body>
