@@ -7,11 +7,20 @@
 		if (cookie == "TykBmlhXHAbrFrGtTfXu") {
 			alert("Welcome back!");
 		}
+		else if (cookie == "IEFtQsEAHmMquNOlvcRp") {
+			alert("Wow, look at you, cookie poisoning");
+		}
 		else {
 			document.cookie = "TykBmlhXHAbrFrGtTfXu";
 		}
 	  </script>
 </head>
 <body>
-	<p>words</p>
+	<h1>Woah, a header!</h1>
+	<p>
+		And now a paragraph as well,<br>
+		With a newline!
+	</p>
+	<a href="page2.html" target="_blank">Click me to go to another page</a><br>
+	<a href="#" onClick="window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ')" target="_blank">Or click me maybe?</a>
 </body>

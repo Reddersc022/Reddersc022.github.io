@@ -2,6 +2,10 @@ body {
     background-color: #101010;
 }
 
+#customText {
+    color: red;
+}
+
 h1 {
     color: #c2c2c2;
     align-items: center;
