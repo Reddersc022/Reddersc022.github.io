@@ -1,6 +1,4 @@
-# Reddersc022.github.io
+# Source for webpage reddersc022.github.io
 
-It's a webpage, not much more
-
-nb.
-There are 4 secrets to find, good luck!
+Made by me\
+Please use GitHub for any issues 
