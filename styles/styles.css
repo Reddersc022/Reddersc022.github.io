@@ -1,0 +1,60 @@
+/* Fonts */
+@font-face {
+    font-family: "regular";
+    src: url(jetbrainsmono-regular-webfont.woff2);
+}
+
+@font-face {
+    font-family: "bold";
+    src: url(jetbrainsmono-bold-webfont.woff2);
+}
+
+/* Classes */
+.tabbed {
+    text-indent: 40px;
+}
+
+.third-box {
+    display: inline-block;
+    max-width: 33%;
+    vertical-align: text-top;
+    margin-right: 20px;
+}
+
+.half-box {
+    display: inline-block;
+    max-width: 50%;
+    vertical-align: text-top;
+}
+
+.full-box {
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+.footer {
+    font-size: smaller;
+    bottom: 10px;
+    line-height: 130%;
+}
+
+/* Body */
+body {
+    background: #202328;
+    color: #D3D9E4;
+    font-family: "regular";
+}
+
+/* Lists */
+dl {
+    line-height: 110%;
+}
+
+dt {
+    line-height: 130%;
+    font-size: medium;
+}
+
+dd {
+    font-size: small;
+}
